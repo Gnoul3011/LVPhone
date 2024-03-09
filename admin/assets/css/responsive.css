@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1224px) {
+    .sidebar {
+        left: -345px;
+        z-index: 5;
+    }
+
+    .main-content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #menu-toggle:checked~.sidebar {
+        left: 0;
+    }
+
+    #menu-toggle:checked~.overlay {
+        display: block;
+        text-align: right;
+    }
+
+}
+
+@media only screen and (max-width:900px) {
+    .analytics {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .analytics {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-content-header-avartar {
+        margin-left: -35px;
+    }
+}

@@ -1,0 +1,7 @@
+@import url("./var.css");
+#header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: var(--height-header);
+}

@@ -1,0 +1,9 @@
+:root {
+  --container: 1260px;
+
+  /*color*/
+  --green-cl: #2fa564;
+  /*size*/
+  --gap: 30px;
+  --height-header: 60px;
+}
